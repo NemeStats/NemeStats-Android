@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_name"
+        android:textColor="@color/color_material_gray_600"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edt_game_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_search_games_edit_text"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:text="das dasdjash dakshdkjashd ksahk ajsdhkjd akjdakdjk"
+        android:textColor="@color/color_material_gray_500"
+        android:textColorHint="@color/color_material_gray_300" />
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="18dp"-->
+    <!--android:text="@string/description"-->
+    <!--android:textColor="@color/color_material_gray_600"-->
+    <!--android:textSize="14dp"-->
+    <!--android:textStyle="bold" />-->
+
+
+    <!--<EditText-->
+    <!--android:id="@+id/edt_game_description"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="12dp"-->
+    <!--android:background="@drawable/background_search_games_edit_text"-->
+    <!--android:ellipsize="end"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:minHeight="48dp"-->
+    <!--android:paddingEnd="32dp"-->
+    <!--android:paddingStart="8dp"-->
+    <!--android:textColor="@color/color_material_gray_500"-->
+    <!--android:textColorHint="@color/color_material_gray_300" />-->
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/active_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/active" />
+
+</LinearLayout>

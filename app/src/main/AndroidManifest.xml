@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nemestats.boardgametracker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".NemeStatsApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon_4"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activities.MainActivity_"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.NemeStatsMainActivity_"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".activities.GameDefinitionDetailsActivity_"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.EditGameDefinitionActivity_"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SearchGameDefinitionActivity_"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.MyGamingGroupsActivity_"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.RecordPlayedGameActivity_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".activities.EditPlayerActivity_"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.PlayerDetailsActivity_"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="@string/edit" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="101"
+        android:title="@string/delete" />
+
+    <item
+        android:id="@+id/action_view_on_nemestats_dot_com"
+        android:orderInCategory="102"
+        android:title="@string/view_on_nemestats_com" />
+</menu>

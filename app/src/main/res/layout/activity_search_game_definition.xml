@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/input_search_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_container">
+
+        <EditText
+            android:id="@+id/autocomplete_search_games"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/background_search_games_edit_text"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:hint="@string/hint_search_games"
+            android:inputType="textCapSentences"
+            android:maxLines="1"
+            android:paddingEnd="32dp"
+            android:paddingStart="8dp"
+            android:textColor="@color/color_material_gray_500"
+            android:textColorHint="@color/color_material_gray_300" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/input_search_text_container">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/search_results_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/no_games_found"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_below="@+id/input_search_text_container"
+        android:background="@drawable/shadow_up_down" />
+
+</RelativeLayout>

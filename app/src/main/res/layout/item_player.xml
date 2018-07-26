@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/selector_item_game_definition"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_badge"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_badge_player_not_selected"
+            android:fontFamily="@string/font_family_light"
+            android:gravity="center"
+            android:text="CA"
+            android:textColor="@color/color_material_gray_500"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/player_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/player_selected"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:alpha="0.85"
+            android:background="@drawable/bg_badge_player_selected"
+            android:padding="4dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_selected" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_player_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingStart="16dp"
+        android:text="Mehedeniuc Gheorghe Mehedeniuc"
+        android:textSize="18dp" />
+
+</LinearLayout>

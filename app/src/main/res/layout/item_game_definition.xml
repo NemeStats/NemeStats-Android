@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_game_definition"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:minHeight="80dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/selector_item_game_definition"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp">
+
+        <RelativeLayout
+            android:layout_width="56dp"
+            android:layout_height="56dp">
+
+            <ImageView
+                android:id="@+id/img_thumbnail_game_definition"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/game_definition_selected"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_badge_game_selected"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_selected" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_game_definition_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@string/font_family_medium"
+                android:maxLines="3"
+                android:text="App name"
+                android:textColor="@color/color_game_definition_name"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt_number_of_played_games"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 played games"
+                android:textColor="@color/color_fab_blue_pressed"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/color_material_gray_200" />
+
+</LinearLayout>

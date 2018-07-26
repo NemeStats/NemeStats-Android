@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="item_decoration_height">6dp</dimen>
+    <dimen name="header_offset">14dp</dimen>
+    <dimen name="dimen_height_app_bar_layout_collapsed">56dp</dimen>
+    <dimen name="dimen_height_app_bar_layout_expanded">276dp</dimen>
+    <dimen name="padding_record_game_view_pager">16dp</dimen>
+    <dimen name="dimen_vertical_spacing_selected_players">8dp</dimen>
+    <dimen name="dimen_min_height_selected_players_container">48dp</dimen>
+    <dimen name="height_next_prev_container">48dp</dimen>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/container_players"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_rank_box"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/txt_box_badge_rank"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="-8dp"
+            android:layout_marginTop="-8dp"
+            android:background="@drawable/badge_rank_box"
+            android:gravity="center"
+            android:text="1st"
+            android:textColor="@color/color_fab_blue_normal"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

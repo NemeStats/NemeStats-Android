@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">NemeStats</string>
+    <string name="tab_title_games_definition">Games</string>
+    <string name="tab_title_played_games">Plays</string>
+    <string name="tab_title_players">Players</string>
+    <string name="txt_hint_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_sign_up">Sign up</string>
+    <string name="txt_hint_confirm_password">Confirm Password</string>
+    <string name="txt_no_internet">No internet connection</string>
+    <string name="txt_network_default_error_message">Failed to communicate with the server</string>
+    <string name="txt_empty_username_or_password">Empty username or password.</string>
+    <string name="txt_email_required">Email is required</string>
+    <string name="txt_error">Error</string>
+    <string name="txt_please_wait">Please wait</string>
+    <string name="txt_creating_your_account">Creating your account</string>
+    <string name="txt_username_required">Username is required</string>
+    <string name="txt_password_required">Password is required</string>
+    <string name="txt_confirmation_password_required">Confirmation password is required</string>
+    <string name="txt_passwords_do_not_match">Passwords do not match</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_single_player" formatted="false">%d player</string>
+    <string name="txt_multiple_players" formatted="false">%d players</string>
+
+    <string name="txt_single_game_played" formatted="false">Played %d time</string>
+    <string name="txt_multiple_games_played" formatted="false">Played %d times</string>
+
+    <string name="txt_single_game" formatted="false">%d game</string>
+    <string name="txt_multiple_games" formatted="false">%d games</string>
+
+    <string name="txt_single_played_game" formatted="false">%d Play</string>
+    <string name="txt_multiple_played_games" formatted="false">%d Plays</string>
+
+    <string name="txt_players">players</string>
+    <string name="txt_average">average</string>
+    <string name="txt_minutes">minutes</string>
+    <string name="txt_published_in">Published in</string>
+    <string name="txt_today">Today</string>
+    <string name="txt_yesterday">Yesterday</string>
+    <string name="txt_symbol_nemestats_points" formatted="false">%sN</string>
+    <string name="activity_game_info_title">Game Info</string>
+    <string name="activity_record_played_game_title" formatted="false">Record game (%d%%)</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="today">Today</string>
+    <string name="date_custom">Custom</string>
+    <string name="step_1_choose_date">1/4 - Choose Date</string>
+    <string name="step_2_select_game">2/4 - Select Game</string>
+    <string name="step_3_select_players">3/4 - Select Players</string>
+    <string name="step_4_set_results">4/4 - Set Results</string>
+    <string name="no_games_found">No Games Found</string>
+    <string name="hint_search_games">Search games</string>
+    <string name="select_game">Select Game</string>
+    <string name="please_select_game">Please select a game</string>
+    <string name="selected_players">Selected players</string>
+    <string name="please_select_players">Please select players</string>
+    <string name="hint_search_players">Search players</string>
+    <string name="no_players">No players</string>
+    <string name="ranked_game">RANKED</string>
+    <string name="scored_game">SCORED</string>
+    <string name="cooperative_game">CO-OP</string>
+    <string name="activity_search_games">Search Games</string>
+    <string name="please_wait_while_we_save_the_game">Please wait while we save the game</string>
+    <string name="game_saved">Game Saved</string>
+    <string name="save">Save</string>
+    <string name="board_game_tracking_made_fun">Board game tracking made fun!</string>
+    <string name="preview_game">Preview Game</string>
+    <string name="saving_played_game">Saving played game...</string>
+    <string name="played_game_saved">Played Game Saved</string>
+    <string name="failed">Failed</string>
+    <string name="hint_points">Points</string>
+    <string name="played_date">Played Date</string>
+    <string name="game_notes">GAME NOTES</string>
+    <string name="next">NEXT</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="are_you_sure_you_want_to_discard_your_changes">Are you sure you want to discard your changes?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="exit">EXIT</string>
+    <string name="hint_game_notes">Enter game notes</string>
+    <string name="edit">Edit</string>
+    <string name="everyone_won">Everyone Won</string>
+    <string name="everyone_lost">Everyone Lost</string>
+    <string name="no_groups_found">No Gaming Groups</string>
+    <string name="delete">Delete</string>
+    <string name="choose_gaming_group">Choose Gaming Group</string>
+    <string name="privacy_notice">Privacy Notice</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="spread_the_love">Spread the Love</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="board_game_geek">Board Game Geek</string>
+    <string name="do_you_enjoy_nemestats">Do you enjoy Nemestats?</string>
+    <string name="how_about_a_rating_on_google_play">Great! How about a 5-star review on the Play Store, then?</string>
+    <string name="txt_sure">Sure</string>
+    <string name="maybe_later">Maybe Later</string>
+    <string name="txt_not_really">Not Really</string>
+    <string name="can_we_make_it_better">Can we make it better?</string>
+    <string name="would_you_mind_giving_us_some_feedback">Would you mind giving us some feedback?</string>
+    <string name="email_developer">gheorghe.mehedeniuc@gmail.com</string>
+    <string name="nemestats_feedback">Nemestats Feedback</string>
+    <string name="invitation_message">Record your Board Game plays using this awesome app called Nemestats. </string>
+    <string name="board_game_geek_page_url">https://www.boardgamegeek.com/</string>
+    <string name="nemestats_privacy_notice_url">https://nemestats.com/Home/PrivacyNotice</string>
+    <string name="nemestats_about_url">https://nemestats.com/Home/About</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="my_gaming_groups">My Gaming Groups</string>
+    <string name="player_name">Player Name</string>
+    <string name="optional">(optional)</string>
+    <string name="activity_create_player">Create Player</string>
+    <string name="please_wait_while_we_save_the_player">Please wait while we save the player</string>
+    <string name="please_wait_while_we_update_the_player">Please wait while we update the player</string>
+    <string name="player_saved">Player Saved</string>
+    <string name="player_updated">Player Updated</string>
+    <string name="player_name_cannot_be_empty">Player Name cannot be empty.</string>
+    <string name="activity_player_details">Player Details</string>
+    <string name="active">Active</string>
+    <string name="board_game_geek_is_awesome_enough_to_allow_us_to_use_their_api_to_search_for_board_games_and_display_metadata_about_those_games">is awesome enough to allow us to use their API to search for board games and display metadata about those games.</string>
+    <string name="game_name">Game Name</string>
+    <string name="description">Description</string>
+    <string name="getting_game_details">Getting Game Details</string>
+    <string name="activity_edit_game_definition">Edit Game</string>
+    <string name="activity_create_game">Create Game</string>
+    <string name="select_date">Select Date</string>
+    <string name="please_complete_the_following_steps">Please complete the following steps:</string>
+    <string name="choose_a_date">\n• Choose a Date</string>
+    <string name="choose_a_game">\n• Choose a Game</string>
+    <string name="select_at_least_2_players">\n• Select at least 2 Players</string>
+    <string name="set_results">\n• Set Results</string>
+    <string name="inactive"> %s (Inactive)</string>
+    <string name="view_on_nemestats_com">View on Nemestats.com</string>
+    <string name="sign_in">Sign In</string>
+    <string name="txt_first_time_here">First time here?</string>
+    <string name="email">Email</string>
+    <string name="txt_not_the_first_time_here">Not the first time here?</string>
+    <string name="txt_new_account">New Account</string>
+    <string name="sign_in_using_your_nemestats_com_account">Sign in using your NemeStats.com account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="link_forgot_password">https://nemestats.com/Account/ForgotPassword</string>
+</resources>

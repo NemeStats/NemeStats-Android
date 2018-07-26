@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/height_next_prev_container">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/background_tab_layout"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/color_game_definition_name"
+            app:tabMaxWidth="0dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/color_game_definition_name"
+            app:tabTextAppearance="@style/TabTextStyle"
+            app:tabTextColor="@color/color_material_gray_700">
+
+            <android.support.design.widget.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ranked_game" />
+
+            <android.support.design.widget.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scored_game" />
+
+            <android.support.design.widget.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cooperative_game" />
+
+        </android.support.design.widget.TabLayout>
+
+        <FrameLayout
+            android:id="@+id/container_fragments_set_game_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tab_layout" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_below="@+id/tab_layout"
+            android:background="@drawable/shadow_up_down" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/height_next_prev_container"
+        android:background="@drawable/shadow_down_up" />
+
+    <include layout="@layout/layout_bottom_navigation_next_previous" />
+
+</android.support.v7.widget.CardView>

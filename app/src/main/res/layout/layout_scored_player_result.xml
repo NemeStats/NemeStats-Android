@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        layout="@layout/item_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/edt_points_scored" />
+
+    <EditText
+        android:id="@+id/edt_points_scored"
+        android:layout_width="68dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/background_search_games_edit_text"
+        android:gravity="center"
+        android:hint="@string/hint_points"
+        android:inputType="numberDecimal"
+        android:paddingEnd="6dp"
+        android:paddingStart="6dp"
+        android:textSize="16dp" />
+
+</RelativeLayout>

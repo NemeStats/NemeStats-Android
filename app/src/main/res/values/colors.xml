@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#364558</color>
+    <color name="colorPrimaryDark">#364558</color>
+    <color name="colorPrimaryLight">#3e5066</color>
+    <color name="color_fab_blue_normal">#2b81b9</color>
+    <color name="color_fab_blue_pressed">#3280b3</color>
+    <color name="color_game_definition_name">#237873</color>
+    <color name="bg_selected_game_definition">#18237873</color>
+
+    <color name="color_material_gray_50">#FAFAFA</color>
+    <color name="color_material_gray_100">#F5F5F5</color>
+    <color name="color_material_gray_200">#EEEEEE</color>
+    <color name="color_material_gray_300">#E0E0E0</color>
+    <color name="color_material_gray_400">#BDBDBD</color>
+    <color name="color_material_gray_500">#9e9e9e</color>
+    <color name="color_material_gray_600">#757575</color>
+    <color name="color_material_gray_700">#616161</color>
+    <color name="color_material_gray_800">#424242</color>
+    <color name="foregroud_image_selected">#29adadad</color>
+    <color name="bg_item_played_game">#ecf0f1</color>
+    <color name="red">#d75953</color>
+    <color name="txt_color_brown">#b17f51</color>
+
+</resources>

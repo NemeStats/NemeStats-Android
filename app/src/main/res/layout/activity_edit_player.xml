@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_name"
+        android:textColor="@color/color_material_gray_600"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/player_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_search_games_edit_text"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingEnd="32dp"
+        android:paddingStart="8dp"
+        android:textColor="@color/color_material_gray_500"
+        android:textColorHint="@color/color_material_gray_300" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="@color/color_material_gray_600"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="@string/optional"
+            android:textColor="@color/color_material_gray_600"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/player_email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_search_games_edit_text"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingEnd="32dp"
+        android:paddingStart="8dp"
+        android:textColor="@color/color_material_gray_500"
+        android:textColorHint="@color/color_material_gray_300" />
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/active_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/active" />
+
+</LinearLayout>

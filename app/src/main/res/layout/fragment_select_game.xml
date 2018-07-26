@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/height_next_prev_container"
+        android:animateLayoutChanges="true">
+
+        <TextView
+            android:id="@+id/label_select_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/select_game"
+            android:textColor="@color/color_material_gray_600"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+        <EditText
+            android:id="@+id/edt_search_games"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/label_select_game"
+            android:layout_margin="8dp"
+            android:background="@drawable/background_search_games_edit_text"
+            android:gravity="center_vertical"
+            android:hint="@string/hint_search_games"
+            android:maxLines="1"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:textColor="@color/color_material_gray_500"
+            android:textColorHint="@color/color_material_gray_300" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/edt_search_games"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_empty_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/no_games_found" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/game_definitions_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingBottom="60dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_below="@+id/edt_search_games"
+            android:background="@drawable/shadow_up_down" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_create_game_definition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:backgroundTint="@color/color_fab_blue_normal"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_add"
+            app:useCompatPadding="true" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/height_next_prev_container"
+        android:background="@drawable/shadow_down_up" />
+
+    <include layout="@layout/layout_bottom_navigation_next_previous" />
+
+
+</android.support.v7.widget.CardView>
