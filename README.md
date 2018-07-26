@@ -1,29 +1,14 @@
-# README #
+The NemeStats app lets you record the results of your tabletop board games and instantly sync them to nemestats.com, where you can get rich statistics, badges, and achievements. NemeStats is uniquely designed for players who play within regular "Gaming Groups" and want to keep track of long term individual statistics, player vs. player statistics, and achievements.
 
-This README would normally document whatever steps are necessary to get your application up and running.
+The focus of the NemeStats app is on providing the most streamlined process possible for recording games to NemeStats.
 
-### What is this repository for? ###
+Features of the app include:
+- Ability to quickly record plays to any of your NemeStats Gaming Groups, including the rank and/or score of each Player in the game
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+- Ability to add Games to your collection(s) (by searching against the Board Game Geek API)
 
-### How do I get set up? ###
+- Ability to add new Players to your Gaming Group(s)
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+https://nemestats.com
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+https://play.google.com/store/apps/details?id=com.nemestats.boardgametracker
